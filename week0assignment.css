@@ -1,0 +1,170 @@
+body {
+  background-color: #4912f6;
+  font-family: Arial;
+}
+
+.positioning {
+	position: relative;
+}
+	
+.aligment {
+	width: 440px;
+}
+	
+a:visited {
+  color: white;
+}
+
+
+#h1 {
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+#h2 {
+  font-size: 21px;
+  padding-top: 25px
+}
+
+.para {
+   padding-top: .5px;
+}
+
+
+#logo {
+	flex-grow: 35; 
+	filter: brightness(0) invert(1); 	
+}
+
+#signin {
+	text-decoration:none; 
+	color: #d5c7fc; 
+	font-size: 18px;
+	font-weight: bold;
+}
+	
+
+#button1 {
+  padding: 15px 15px;
+  border: 0px;
+  border-radius: 30px; 
+  font-size: 18px;  
+  font-weight: bold;
+  width: 150px;
+  cursor: pointer;
+}
+	
+#button2 { 
+  border: 0px;
+  padding: 25px 50px;
+  border-radius: 40px;
+  white-space: normal;
+  width: 225px;
+  font-size: 15px;  
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action:active {
+	transform: translateY(1px);
+}
+
+input[type='button'] {
+  background-image: linear-gradient(to right, #ea9e3d 0%, #ea9a3c 15%, #eb913b 35%, #ed853a 51%,  #ee7d38 80%, #ee7b38 100%); 
+  color: #FFFFFF;
+}
+
+#clout {
+	margin-bottom: 30px
+}
+
+.section-1 {
+	display: flex;
+	align-items: center;
+	margin-left: 75px;
+	padding-top: 10px;
+	margin-bottom: 15%;	
+}
+
+
+.section-2 {
+	display: flex;
+	align-items: center;
+	color: #c8aefa;
+	margin-left: 75px;
+	padding-bottom: 12%;	
+}
+
+	
+#section-3 {
+	text-align: center;
+	color: #dacffd;
+	font-family: times new roman;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.section-4 {
+	display: flex;
+	color: #e5e3fd;
+	padding-left: 10%;
+	padding-top: 10%;
+	padding-right: 50px;
+	align-items: center;
+}
+
+#pic1 {
+	width: 635px; 
+	height: 480px;
+}
+
+#pic2 {
+	width: 460px;
+}
+
+
+#pic3 {
+  padding-left: 50px; 
+  width: 350px;
+} 
+
+#spacing {
+	margin-left: -5%; 
+	margin-top: -65px;
+}
+
+.spacing2{
+	padding-left: 40px;
+	padding-top: 30px;
+	width: 440px;
+}
+
+
+#headline-1 {
+	
+	font-size: 30px;
+	font-weight: lighter;
+	color: #FFFFFF
+}
+
+#headline-2 {
+	
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: -20px;
+	color: #FFFFFF
+}
+
+#headline-3 {
+	
+	font-family: courier new; 
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -20px;
+	width: 500px;
+}
+	
+#formatting {
+	text-decoration: underline;
+	font-weight: bold;
